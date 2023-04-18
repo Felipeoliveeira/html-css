@@ -6,24 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta</title>
     <style>
-        body{   
-            height: 96vh;
-            background-color: white;
-            background-image: url(imagens1/espaco.jpg);
-            background-repeat: no-repeat;
-            background-size:cover;
-            background-attachment: fixed;
-        }
+       *{
+            margin: 0%;
+            padding: 0%;
+       }
+       body{
+            width: 100vw;
+            height: 100vh;
+            background-color: wheat;
+       }
+       div#espaco{
+            width: 100vw;
+            height: 100vh;
+            background: black url(imagens1/espaco.jpg) center no-repeat;
+            background-size: cover;
+            position: relative;
+       }
         div#astronauta{
-            background: url(imagens1/astronauta.png) center center no-repeat fixed;
-            background-size: contain;
-           height: 600px;
-           width: 1000px;
+            width: 50vw;
+            height: 50vh;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%,-50%);
+           background: url(imagens1/astronauta.png) center no-repeat;
+           background-size: contain;
         }
     </style>
 </head>
 <body>
-    <div id="astronauta">
+    <div id="espaco">
+        <div id="astronauta">
+        </div>
     </div>
 </body>
 </html>
