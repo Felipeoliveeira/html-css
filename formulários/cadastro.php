@@ -1,2 +1,2 @@
 Seus dados foram redirecionados com sucesso!
-Obrigado pela sua ajuda!
+Agora aprenda linguagem PhP para gerenciar seus dados! 
