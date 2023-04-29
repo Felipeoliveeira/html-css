@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*Todas a mídias*/
+
+@media screen and (min-width:768px) and (max-width:992px) /*TABLETS*/{
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #pc{display: none;}
+    #phone{display: none;}
+    #tablet{display: block;}
+    #tv{display: none;}
+    #print{display:none;}
+    main::after{
+        color: grey;
+        content: 'Essa é a versão Tablet de 768px até 992px';
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) /*Desktop*/{
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #pc{display: block;}
+    #phone{display: none;}
+    #tablet{display: none;}
+    #tv{display: none;}
+    #print{display:none;}
+    main::after{
+        color: grey;
+        content: 'Essa é a versão Desktop de 992px até 1200px';
+    }
+}
+
+@media screen and (min-width:1200px) /*TV*/{
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #pc{display: none;}
+    #phone{display: none;}
+    #tablet{display: none;}
+    #tv{display: block;}
+    #print{display:none;}
+    main::after{
+        color: grey;
+        content: 'Essa é a versão telas grandes a partir de 1200px +';
+    }
+}
+
+@media print /*Impressoras*/{
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+    #pc{display: none;}
+    #phone{display: none;}
+    #tablet{display: none;}
+    #tv{display: none;}
+    #print{display:block;}
+    main::after{
+        color: grey;
+        content: 'Essa é a versão impressora';
+    }
+}
+
