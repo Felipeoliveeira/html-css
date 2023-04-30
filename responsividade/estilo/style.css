@@ -31,7 +31,7 @@ main{
 }
 main::after{
     color: grey;
-    content: 'Essa é a versão celular de 600px até 768px';
+    content: 'Essa é a versão de no máximo 768px';
 }
 h1{
     text-align: center;
