@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        main{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background-image: linear-gradient(to right,#5B3A46,#1B3153);
+        }
+        form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font: normal 2em arial;
+            text-shadow: 1px 1px 3px black;
+        }
+        input{
+            margin-bottom: 8px;
+            padding: 3px;
+            background-color: #312F3D;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 4px;
+            box-shadow: 0%;
+        }
+        input#go{
+               width: 15.7vw;
+               padding: 4px;
+               background-color: #6590D4;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="cadastro.php" method="post">
+            <h1>Login</h1><br>
+            <p><label for="iuser"></label>
+                <input type="text" name="user" id="iuser" required placeholder="Username" minlength="5" size="25">
+            </p>
+            <p><label for="ikey"></label>
+                <input type="password" name="key" id="ikey" required placeholder="Password" minlength="6" size="25">
+            </p>
+            <p><input type="submit" value="Let me in." id="go"></p>
+        </form>
+    </main>
+</body>
+</html>

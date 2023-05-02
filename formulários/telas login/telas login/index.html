@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            width: 100vw;
+            height: 100dvh;
+            background-color: black;
+        }
+        main{
+            width: 100vw;
+            height: 100vh;
+            background-color: #94BE73;
+            position: relative;
+        }
+        div{
+            min-width: 200px;
+            max-width: 250px;
+            min-height: 200px;
+            max-height: 250px;
+            background-color: white;
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            box-shadow: 1px 1px 4px black;
+        }
+        form{
+            padding: 10px;
+            padding-top: 35px;
+        }
+        input{
+            margin-bottom: 10px;
+            padding: 15px;
+            border: 0px;
+            background-color: #F3F3F3;
+        }
+        input#login{
+            width: 190px;
+            background-color: green;
+        }
+        #login:hover{
+            color: white;
+            text-decoration: underline;
+        }
+        a,p{
+            color: grey;
+        }
+        a:hover{
+            color: rgb(39, 39, 245);
+        }
+       
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <form action="login.php" method="post">
+                <input type="text" name="user" id="iuser" placeholder="username" required ><br>
+                <input type="password" name="key" id="iKey"placeholder="password"><br>
+                <input type="submit" value="Login" id="login" minlength="6">
+            </form>
+            <p>Not registred? <a href="#">Created an account</a></p>
+        </div>
+    </main>
+</body>
+</html>
