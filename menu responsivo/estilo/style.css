@@ -20,9 +20,6 @@ li{
     background-color:rgb(88, 87, 87);
     border: 1px solid grey;
 }
-nav{
-    display: none;
-}
 nav > ul{
     list-style-type: none;
 }
@@ -66,7 +63,7 @@ article{
     border-radius: 10px;
 }
 
-@media  screen and (min-width:992px){
+@media  screen and (min-width:768px){
     article{
         margin: auto;
         width: 50vw;
@@ -76,5 +73,14 @@ article{
         text-indent: 20px;
         text-align: justify;
         border-radius: 10px;
+    }
+    span#burguer{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    nav > ul > li{
+        display: inline-block;
     }
 }
