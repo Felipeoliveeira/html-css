@@ -4,3 +4,52 @@
  verde: #49a09d
  lilás: #5f2c92
 **/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100vh;
+}
+main{
+    height: 100vh;
+    background-color: #5f2c92;
+    position: relative;
+}
+main > div#login{
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+main > div#login > div#imagem{
+    height: 200px;
+    background: url(../imagens/imageone.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+main > div#login > div#formulario{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 0.8em;
+    text-align: justify;
+}
+input{
+    margin-bottom: 7px;
+    padding: 10px;
+}
+
