@@ -27,6 +27,7 @@ main > div#login{
     top: 50%;
     transform: translate(-50%,-50%);
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(2, 2, 2, 0.596);
 }
 main > div#login > div#imagem{
     height: 200px;
@@ -52,4 +53,11 @@ input{
     margin-bottom: 7px;
     padding: 10px;
 }
-
+div#login > div#formulario > form >input#submit{
+    background-color: blue;
+    width: 228px;
+}
+div#login > div#formulario > form >input#remember{
+    background-color: blue;
+    width: 228px;
+}
