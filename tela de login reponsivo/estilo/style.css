@@ -49,3 +49,17 @@ p{
     font-size: 0.8em;
     text-align: justify;
 }
+div#formulario > form > div.campo{
+    background-color: #5f2c92;
+    color: white;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+form > div.campo > input{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #a6ecea;
+    border: 0px;
+    margin-bottom: 1px;
+}
