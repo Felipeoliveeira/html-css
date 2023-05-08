@@ -49,17 +49,29 @@ p{
     font-size: 0.8em;
     text-align: justify;
 }
-div#formulario > form > div.campo{
-    background-color: #5f2c92;
-    color: white;
-    margin-bottom: 5px;
-    padding-top: 10px;
-    border-radius: 8px;
-}
-form > div.campo > input{
+
+form > input[type=submit]{
+    display: block;
+    width: 100%;
     padding: 10px;
-    border-radius: 8px;
-    background-color: #a6ecea;
+    background-color: #7db9b7;
     border: 0px;
-    margin-bottom: 1px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+form > input[type=submit]:hover{
+    background-color: #40817e;
+}
+form > a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #40817e;
+    border: 1px solid #40817e;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+form > a:hover{
+   background-color: #8dece9;
 }
