@@ -20,7 +20,7 @@ main{
 }
 main > div#login{
     width: 250px;
-    height: 500px;
+    height: 515px;
     background-color: white;
     position: absolute;
     left: 50%;
@@ -99,4 +99,7 @@ div.campo > input[type=password]{
     border-radius: 8px;
     height: 30px;
     width: 87%;
+}
+form > a > span.material-icons{
+    font-size: 1em;
 }
