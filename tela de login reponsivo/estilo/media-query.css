@@ -57,9 +57,9 @@
         font: normal 0.9em Arial;
     }
     div.campo > input[type=email]{
-        width: 92%;
+        width: 90%;
     }
     div.campo > input[type=password]{
-        width: 92%;
+        width: 90%;
     }
 }
