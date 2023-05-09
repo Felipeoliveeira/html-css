@@ -22,6 +22,12 @@
         height: 100%;
         padding: 10px;       
     }
+    div.campo > input[type=email]{
+        width: 93%;
+    }
+    div.campo > input[type=password]{
+        width: 93%;
+    }
 }
 @media screen and (min-width:992px){
     main{
@@ -49,5 +55,11 @@
     }
     main > div#login > div#formulario > p{
         font: normal 0.9em Arial;
+    }
+    div.campo > input[type=email]{
+        width: 92%;
+    }
+    div.campo > input[type=password]{
+        width: 92%;
     }
 }
