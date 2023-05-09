@@ -10,12 +10,18 @@
         height: 50vh;
     }
     main > div#login > div#imagem{
-        width: 200px;
+        width: 30%;
         height: 100%;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 20px;
         float: left;
-        margin-right: 10px;
+    }
+    main > div#login > div#formulario{
+        float: right;
+        width: 66%;
+        height: 100%;
+        padding: 10px;
+       
     }
 }
 @media screen and (min-width:992px){
@@ -33,7 +39,11 @@
         float: right;
         border-top-left-radius: 0px;
         border-bottom-right-radius: 20px;
-        margin-left: 10px;
+    }
+    main > div#login > div#formulario{
+        float: left;
+        width:46%;
+        padding: 10px;
     }
     main > div#login > div#formulario > h1{
         font: bold 2em Arial;

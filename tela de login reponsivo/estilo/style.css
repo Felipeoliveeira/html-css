@@ -38,6 +38,7 @@ main > div#login > div#imagem{
     border-top-left-radius: 20px;
 }
 main > div#login > div#formulario{
+    display: block;
     padding: 10px;
 }
 h1{
@@ -51,7 +52,7 @@ p{
 }
 
 form > input[type=submit]{
-    display: block;
+    display:block;
     width: 100%;
     padding: 10px;
     background-color: #7db9b7;
