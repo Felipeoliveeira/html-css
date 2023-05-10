@@ -41,15 +41,14 @@ main > div#login > div#formulario{
     display: block;
     padding: 10px;
 }
-h1{
+div#formulario > h1{
     text-align: center;
-    font-size: 1.4em;
-    padding-bottom: 10px;
+    font: bold 1.4em;
 }
 p{
     font-size: 0.8em;
     text-align: justify;
-    padding: 10px;
+    margin: 15px 0px;
 }
 
 form > input[type=submit]{
@@ -72,8 +71,9 @@ form > a{
     color: #40817e;
     border: 1px solid #40817e;
     border-radius: 5px;
-    padding-bottom: 10px;
-    margin-top: 10px;
+    padding-bottom: 10px 0px;
+    margin-top: 5px;
+    padding: 10px 0px;
 }
 form > a:hover{
    background-color: #8dece9;
@@ -89,9 +89,15 @@ div.campo > input{
     background-color:#9bd1cf ;
     border: 0px;
     border-radius: 8px;
-    padding-top: 17px;
-    width: calc(100% - 40px);
+    padding-top: 18px;
+    width: calc(100% - 38px);
+}
+div.campo > input:focus{
+    background-color: white;
 }
 form > div.campo > span.material-icons{
     font-size: 2em;
+}
+form > a >span.material-icons{
+    font-size: 0.9em;
 }
