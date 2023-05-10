@@ -84,15 +84,14 @@ form > div.campo{
     border-radius: 8px;
     display: block;
     margin-top: 5px;
-    padding: 1px;
 }
 div.campo > input{
     background-color:#9bd1cf ;
     border: 0px;
     border-radius: 8px;
-    height: 30px;
-    width: calc(100% - 30px);
+    padding-top: 17px;
+    width: calc(100% - 40px);
 }
-form > a > span.material-icons{
-    font-size: 1em;
+form > div.campo > span.material-icons{
+    font-size: 2em;
 }
