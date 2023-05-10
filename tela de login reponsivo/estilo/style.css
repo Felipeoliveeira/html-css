@@ -14,20 +14,20 @@ html, body{
     height: 100vh;
 }
 main{
-    height: 100vh;
     background-color: #5f2c92;
     position: relative;
+    height: 100vh;
 }
 main > div#login{
+    background-color: white;
     width: 250px;
     height: 515px;
-    background-color: white;
-    position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    position: absolute;     
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(2, 2, 2, 0.596);
+    transform: translate(-50%,-50%);
 }
 main > div#login > div#imagem{
     height: 200px;
@@ -86,19 +86,12 @@ form > div.campo{
     margin-top: 5px;
     padding: 1px;
 }
-div.campo > input[type=email]{
+div.campo > input{
     background-color:#9bd1cf ;
     border: 0px;
     border-radius: 8px;
     height: 30px;
-    width: 87%;
-}
-div.campo > input[type=password]{
-    background-color:#9bd1cf;
-    border: 0px;
-    border-radius: 8px;
-    height: 30px;
-    width: 87%;
+    width: calc(100% - 30px);
 }
 form > a > span.material-icons{
     font-size: 1em;

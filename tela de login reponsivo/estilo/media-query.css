@@ -56,10 +56,7 @@
     main > div#login > div#formulario > p{
         font: normal 0.9em Arial;
     }
-    div.campo > input[type=email]{
-        width: 90%;
-    }
-    div.campo > input[type=password]{
+    div.campo > input{
         width: 90%;
     }
 }
