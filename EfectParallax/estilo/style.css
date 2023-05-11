@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    width: 100%;
+}
+div#one{
+    background: url(../imagens/imageWelcome.jpg) center no-repeat fixed;
+    background-size: cover;
+
+    height: 100vh;
+    position: relative;
+}
+div#one > h1{
+    font: normal 1.6em sans-serif;
+    color: white;
+    background-color: rgb(80, 78, 78);
+    text-align: center;
+    border: 20px solid rgb(80, 78, 78);
+    white-space: nowrap;
+    letter-spacing: 8px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+div#one > div{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.274);
+}
+section#primeira{
+    background-color: #F4F4F4;
+    height: 650px;
+    text-align: center;
+    color: #666666;
+}
+section#primeira > h2{
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+}
+section#primeira > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 0px 70px;
+}
