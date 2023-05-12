@@ -73,7 +73,7 @@ div#two > div{
 }
 section#segunda{
     background-color: #282E34;
-    height: 550px;
+    height: 600px;
     text-align: center;
     color: #DDDDDD;
 }
@@ -111,7 +111,7 @@ div#three > div{
 }
 section#terceira{
     background-color: #282E34;
-    height: 550px;
+    height: 600px;
     text-align: center;
     color: #DDDDDD;
 }
@@ -149,7 +149,7 @@ div#for > div{
 }
 
 
-@media screen and (min-width:680px) and (max-width:992px) {
+@media screen and (min-width:740px) and (max-width:992px) {
     section#primeira{
         height: 450px;
     }
