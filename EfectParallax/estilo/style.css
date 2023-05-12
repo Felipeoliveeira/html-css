@@ -34,7 +34,7 @@ div#one > div{
 }
 section#primeira{
     background-color: #F4F4F4;
-    height: 650px;
+    height: 700px;
     text-align: center;
     color: #666666;
 }
@@ -73,7 +73,7 @@ div#two > div{
 }
 section#segunda{
     background-color: #282E34;
-    height: 600px;
+    height: 700px;
     text-align: center;
     color: #DDDDDD;
 }
@@ -111,7 +111,7 @@ div#three > div{
 }
 section#terceira{
     background-color: #282E34;
-    height: 600px;
+    height: 700px;
     text-align: center;
     color: #DDDDDD;
 }
