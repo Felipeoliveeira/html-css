@@ -51,7 +51,7 @@ section#primeira > p{
 }
 div#two{
     height: 370px;
-    background: url(../imagens/img2.jpg) center no-repeat fixed;
+    background: url(../imagens/img2.jpg) top center no-repeat fixed;
     background-size: cover;
 
     position: relative;
@@ -140,4 +140,30 @@ div#for > h1{
 div#for > div{
     height: 100%;
     background-color: rgba(255, 255, 255, 0.274); ;
+}
+
+
+@media screen and (min-width:680px) and (max-width:992px) {
+    section#primeira{
+        height: 450px;
+    }
+    section#segunda{
+        height: 400px;
+    }
+    section#terceira{
+        height: 400px;
+    }
+}
+
+
+@media screen and (min-width:992px){
+    section#primeira{
+        height: 360px;
+    }
+    section#segunda{
+        height: 330px;
+    }
+    section#terceira{
+        height: 330px;
+    }
 }
