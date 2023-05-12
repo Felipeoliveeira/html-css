@@ -8,7 +8,7 @@ html,body{
     width: 100%;
 }
 div#one{
-    background: url(../imagens/imageWelcome.jpg) center no-repeat fixed;
+    background: url(../imagens/imageWelcome.jpg) center center no-repeat fixed;
     background-size: cover;
 
     height: 100vh;
@@ -51,7 +51,7 @@ section#primeira > p{
 }
 div#two{
     height: 370px;
-    background: url(../imagens/img2.jpg) top center no-repeat fixed;
+    background: url(../imagens/img2.jpg) center no-repeat fixed;
     background-size: cover;
 
     position: relative;
