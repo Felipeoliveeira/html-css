@@ -59,6 +59,8 @@ div#two{
 div#two > h1{
     font: normal 1.6em sans-serif;
     color: white;
+    white-space: nowrap;
+    letter-spacing: 8px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -95,6 +97,8 @@ div#three{
 div#three > h1{
     font: normal 1.6em sans-serif;
     color: white;
+    white-space: nowrap;
+    letter-spacing: 8px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -130,6 +134,8 @@ div#for{
 }
 div#for > h1{
     font: normal 1.6em sans-serif;
+    white-space: nowrap;
+    letter-spacing: 8px;
     color: white;
     position: absolute;
     left: 50%;
