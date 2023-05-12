@@ -49,3 +49,95 @@ section#primeira > p{
     line-height: 28px;
     padding: 0px 70px;
 }
+div#two{
+    height: 370px;
+    background: url(../imagens/img2.jpg) center no-repeat fixed;
+    background-size: cover;
+
+    position: relative;
+}
+div#two > h1{
+    font: normal 1.6em sans-serif;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);  
+}
+div#two > div{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.274);
+}
+section#segunda{
+    background-color: #282E34;
+    height: 550px;
+    text-align: center;
+    color: #DDDDDD;
+}
+section#segunda > h2{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+section#segunda > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 0px 70px;
+}
+div#three{
+    height: 370px;
+    background: url(../imagens/img3.jpg) right center no-repeat fixed;
+    background-size: cover;
+
+    position: relative;
+}
+div#three > h1{
+    font: normal 1.6em sans-serif;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);  
+}
+div#three > div{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.274);
+}
+section#terceira{
+    background-color: #282E34;
+    height: 550px;
+    text-align: center;
+    color: #DDDDDD;
+}
+section#terceira > h2{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+section#terceira > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 0px 70px;
+}
+div#for{
+    height: 470px;
+    background: url(../imagens/img4.jpg) top center no-repeat fixed;
+    background-size: cover;
+
+    position: relative;
+}
+div#for > h1{
+    font: normal 1.6em sans-serif;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%); 
+}
+div#for > div{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.274); ;
+}
