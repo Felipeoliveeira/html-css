@@ -13,22 +13,39 @@
         <h2>Thank you for taking the time to help us improve the platform</h2>
         <div id="caixa">
             <form action="cadastro.php">
-                <div>
+                <div class="dados">
                     <label for="name">Name</label>
-                    <input type="text" name="nome" id="name">
+                    <input type="text" name="nome" id="name" required placeholder="Enter your name">     
+                </div>
+                <div class="dados">
+                    <label for="email">Email</label>
+                    <input type="email" name="mail" id="email">
+                    <label>
+                </div>
+                <div class="dados">
+                    <label for="age">Age</label>
+                    <input type="number" name="ag" id="age">
+                </div>
+                <div class="dados">
+                    <label for="role">Which option best describes your current role?</label>
+                    <select name="rol" id="role">
+                        <optgroup>
+                            <option value="selected disable">Select Current Role</option>
+                            <option>Student</option>
+                            <option>Full Time Job</option>
+                            <option>Full Time Learner</option>
+                            <option>Prefer not to say</option>
+                            <option>Other</option>
+                        </optgroup>
+                    </select>
                 </div>
                 <div>
-
+                    <label for="select">Would you recommend freeCodeCamp to a friend?</label><br>
+                    <input type="radio" name="select" id="select"><br>
+                    <input type="radio" name="select" id="select"><br>
+                    <input type="radio" name="select" id="select">
                 </div>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
+                <div></div>
             </form>
         </div>
     </main>

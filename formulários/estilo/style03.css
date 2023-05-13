@@ -37,9 +37,20 @@ main > h2{
 }
 
 main > div#caixa{
-    width: 485px;
+    width: 480px;
     height: 700px;
     margin: auto;
     background-color:#2b2b4a8f;
+    border-radius: 5px;
 }
+
+div#caixa > form{
+    padding: 25px;
+}
+
+div.dados > input,select{
+    width: 100%;
+    color: grey;
+}
+
 
