@@ -16,7 +16,7 @@ body{
 }
 
 body > main{
-    height: 100vh;
+    height: 100%;
     background-color:#7574bda2; 
 }
 
@@ -36,7 +36,7 @@ main > h2{
     padding-bottom: 30px;
 }
 
-div#caixa{
+main > div#caixa{
     width: 485px;
     height: 700px;
     margin: auto;
