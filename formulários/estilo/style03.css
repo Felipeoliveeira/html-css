@@ -11,7 +11,7 @@ COR BOTAO SUBMIT:#37AF65--*/
 
 body{
     height: 100%;
-    background: black url(../imagens/saladeaula.jpg) left center no-repeat fixed;
+    background: black url(../imagens/saladeaula.jpg) center no-repeat fixed;
     background-size: cover;
 }
 
@@ -37,7 +37,7 @@ main > h2{
 }
 
 main > div#caixa{
-    width: 480px;
+    width: 400px;
     height: 700px;
     margin: auto;
     background-color:#2b2b4a8f;
@@ -50,7 +50,7 @@ div#caixa > form{
 
 div.dados > input,select{
     width: 100%;
-    color: grey;
+    color: white;
 }
 
 
