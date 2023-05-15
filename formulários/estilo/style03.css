@@ -7,6 +7,7 @@ COR BOTAO SUBMIT:#37AF65--*/
 *{
     margin: 0px;
     padding: 0%;
+    font-family: sans-serif;
 }
 
 body{
@@ -17,7 +18,7 @@ body{
 
 body > main{
     height: 100%;
-    background-color:#7574bdbe; 
+    background-color:#7574bd9c; 
 }
 
 main > h1{
@@ -47,6 +48,7 @@ main > div#caixa{
 
 p,label{
     color: white;
+    margin-bottom: 10px;
 }
 
 .space{
@@ -60,12 +62,14 @@ div.dados > input,textarea{
     border: 0px;
     padding: 10px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 div.dados > select{
     width: 100%;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 form > input[type=submit]{
     width: 100%;
@@ -73,4 +77,18 @@ form > input[type=submit]{
     background-color:#37AF65;
     border: 0px;
     cursor: pointer;
+    margin-bottom: 20px;
+}
+
+input[type=radio],[type=checkbox]{
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width:768px) {
+    main > div#caixa{
+        width: 700px;
+    }
+    div.dados > select{
+        width: 98%;
+    }
 }
