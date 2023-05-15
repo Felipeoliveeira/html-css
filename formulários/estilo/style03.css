@@ -48,7 +48,7 @@ div#caixa > form{
     padding: 25px;
 }
 
-div.dados > input,select{
+div.dados > input,select,textarea{
     width: 100%;
     background-color: white;
 }
