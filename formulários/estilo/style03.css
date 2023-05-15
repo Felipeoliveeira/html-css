@@ -12,7 +12,7 @@ COR BOTAO SUBMIT:#37AF65--*/
 
 body{
     height: 100%;
-    background: black url(../imagens/saladeaula.jpg) center no-repeat fixed;
+    background: black url(../imagens/saladeaula.jpg) left center no-repeat fixed;
     background-size: cover;
 }
 
@@ -38,7 +38,7 @@ main > h2{
 }
 
 main > div#caixa{
-    width: 400px;
+    width: 325px;
     height: 100%;
     padding: 25px;
     margin: auto;
@@ -85,6 +85,10 @@ input[type=radio],[type=checkbox]{
 }
 
 @media screen and (min-width:768px) {
+    body{
+        background: black url(../imagens/saladeaula.jpg) left center no-repeat fixed;
+        background-size: cover;
+    }
     main > div#caixa{
         width: 700px;
     }
