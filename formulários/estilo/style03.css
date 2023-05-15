@@ -17,7 +17,7 @@ body{
 
 body > main{
     height: 100%;
-    background-color:#7574bda2; 
+    background-color:#7574bdbe; 
 }
 
 main > h1{
@@ -40,7 +40,7 @@ main > div#caixa{
     width: 400px;
     height: 700px;
     margin: auto;
-    background-color:#2b2b4a8f;
+    background-color:#2b2b4ab9;
     border-radius: 5px;
 }
 
@@ -50,6 +50,7 @@ div#caixa > form{
 
 div.dados > input,select{
     width: 100%;
+    background-color: white;
 }
 
 
