@@ -86,7 +86,7 @@ input[type=radio],[type=checkbox]{
 
 @media screen and (min-width:768px) {
     body{
-        background: black url(../imagens/saladeaula.jpg) left center no-repeat fixed;
+        background: black url(../imagens/saladeaula.jpg) center center no-repeat fixed;
         background-size: cover;
     }
     main > div#caixa{
