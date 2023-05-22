@@ -5,12 +5,17 @@
     padding: 0%;
 }
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
-    color: white;
-    position: absolute;
+    color: #F6F6F6;
 }
-img{
-    position: relative;
-    left: 300px;
+main{
+    display: flex;
+    align-items: center;
+}
+
+strong#destaque{
+    color:#22D4FD ;
 }
 
