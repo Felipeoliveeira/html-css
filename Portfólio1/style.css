@@ -12,12 +12,15 @@ body{
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
+    display: flex;
 }
 main{
     margin: 10%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+img{
+    margin-left: 30px;
 }
 div#apresentacao__conteudo{
     width: 593px;
@@ -48,6 +51,9 @@ div#buttom > a{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+div#buttom > a:hover{
+    background-color: #177085;
 }
 strong#destaque{
     color:#22D4FD ;
