@@ -12,15 +12,12 @@ body{
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
-    display: flex;
 }
 main{
     margin: 10%;
     display: flex;
     align-items: center;
-}
-img{
-    margin-left: 30px;
+    justify-content: space-between;
 }
 div#apresentacao__conteudo{
     width: 593px;
