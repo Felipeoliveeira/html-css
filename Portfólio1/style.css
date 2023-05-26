@@ -13,6 +13,9 @@ body{
     background-color: black;
     color: #F6F6F6;
 }
+img{
+    border-radius: 25%;
+}
 main{
     margin: 5% 10%;
     display: flex;
