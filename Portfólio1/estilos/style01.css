@@ -35,6 +35,13 @@ p{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
 #buttom{
     display: flex;
     justify-content: space-between;
@@ -71,6 +78,7 @@ header.apresentacao__cabecalho{
     display: flex;
     justify-content: flex-end;
     gap: 80px;
+    padding-top: 15px;
 }
 header.apresentacao__cabecalho > a{
     text-decoration: none;

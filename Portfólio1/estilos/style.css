@@ -17,7 +17,7 @@ img{
     border-radius: 25%;
 }
 main{
-    margin: 5% 10%;
+    margin: 0% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
