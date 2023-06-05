@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 
@@ -6,6 +8,7 @@
     padding: 0%;
 }
 body{
+    height: 100vh;
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
@@ -14,13 +17,13 @@ img{
     border-radius: 25%;
 }
 main{
-    padding:4% 10%;
+    margin: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 header.cabecalho{
-    width: 200px;
+    width: 540px;
     display: flex;
     justify-content: flex-end;
     gap: 80px;
@@ -33,42 +36,41 @@ header.cabecalho > a{
 }
 header.cabecalho > a:hover{
     text-decoration: underline;
-}
 
+}
 div#apresentacao__conteudo{
-    width: 485px;
+    width: 593px;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
-
-body > main >  div#apresentacao__conteudo > ul > li > a{
-    text-decoration: none;
-    color: #22D4FD;
-}
-body > main >  div#apresentacao__conteudo > ul > li > a:hover{
-    text-decoration: underline;
-    padding: 5px;
-}
-
-ul{
-    border: 1px solid #22D4FD;
-    padding: 20px;
-}
-li{
-    font: normal normal 20px 'Montserrat', sans-serif ;
-    margin-left: 7%;
-}
 h1{
     font-size: 36px;
-    font-weight: 400px;
     font-family:'Krona One', sans-serif;;
 }
 p{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
-
+#buttom{
+    display: flex;
+    justify-content: space-between;
+}
+div#buttom > a{
+    text-decoration: none;
+    background-color: #22D4FD;
+    color: black;
+    width: 280px;
+    padding: 15px 0px;
+    font-size: 24px;
+    border-radius: 16px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+div#buttom > a:hover{
+    background-color: #177085;
+}
 footer.rodape{
     background-color: #22D4FD;
     color: black;
@@ -77,13 +79,14 @@ footer.rodape{
     align-items: center;
     padding: 24px;
 }
-body > footer.rodape > p > a{
-    color: black;
+a{
     text-decoration: none;
+    color: black;
 }
-body > footer.rodape > p > a:hover{
+a:hover{
     text-decoration: underline;
 }
-strong{
+strong#destaque{
     color:#22D4FD ;
 }
+

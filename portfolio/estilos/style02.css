@@ -22,7 +22,7 @@ main{
     justify-content: space-between;
 }
 header.cabecalho{
-    width: 200px;
+    width: 510px;
     display: flex;
     justify-content: flex-end;
     gap: 80px;
