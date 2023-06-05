@@ -2,9 +2,13 @@
 
 
 :root{
-    --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
+    --cor-primaria: #2C3333;
+    --cor-secundaria: #CBE4DE;
+    --cor-terciaria: #0E8388;
+    --cor-hover: #2E4F4F;
+
+    --fonte-primaria:'Krona One', sans-serif;
+    --fonte-secundaria:'Montserrat', sans-serif;
 }
 
 *{
@@ -35,7 +39,7 @@ header.cabecalho{
 header.cabecalho > a{
     text-decoration: none;
     color: var(--cor-terciaria);
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 header.cabecalho > a:hover{
     text-decoration: underline;
@@ -60,17 +64,17 @@ ul{
     padding: 10px;
 }
 li{
-    font:normal 20px 'Montserrat', sans-serif ;
+    font:normal 20px var(--fonte-secundaria);
     margin-left: 5%;
 }
 h1{
     font-size: 36px;
     font-weight: 400px;
-    font-family:'Krona One', sans-serif;;
+    font-family:var(--fonte-primaria);
 }
 p{
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 footer.rodape{
