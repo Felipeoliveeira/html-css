@@ -20,8 +20,9 @@ body{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
-img{
+img#imageFelipe{
     border-radius: 25%;
+    box-shadow: 5px 5px 10px black;
 }
 main{
     padding:4% 10%;
@@ -68,12 +69,12 @@ li{
     margin-left: 5%;
 }
 h1{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 400px;
     font-family:var(--fonte-primaria);
 }
 p{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -83,7 +84,7 @@ footer.rodape{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 1.5rem;
 }
 body > footer.rodape > p > a{
     color: var(--cor-primaria);
