@@ -103,21 +103,21 @@ strong#destaque{
     color:var(--cor-terciaria);
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 600px) and (max-width:768px) {
 
         main{
             flex-direction: column-reverse;
+            gap: 60px;
         }
         #buttom{
             flex-direction: column;
             align-items: center;
-            gap: 64px;
         }
         header.cabecalho{
-            width: 790px;
+            width: 520px;
             margin-top: 6%;
         }
-        #apresentacao__conteudo{
+        div#apresentacao__conteudo{
             width: auto;
         }
 
