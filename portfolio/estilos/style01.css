@@ -17,12 +17,14 @@
     margin: 0%;
     padding: 0%;
 }
+
 body{
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
 img#imageFelipe{
+    width: 50%;
     border-radius: 25%;
     box-shadow: 5px 5px 10px black;
 }
@@ -31,6 +33,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 header.cabecalho{
     width: 445px;
@@ -110,4 +113,23 @@ footer.rodape{
 }
 strong#destaque{
     color:var(--cor-terciaria) ;
+}
+
+@media (max-width: 1200px) {
+
+    main{
+        flex-direction: column-reverse;
+    }
+    #buttom{
+        flex-direction: column;
+        align-items: center;
+    }
+    header.cabecalho{
+        width: 790px;
+        margin-top: 6%;
+    }
+    #apresentacao__conteudo{
+        width: auto;
+    }
+
 }
