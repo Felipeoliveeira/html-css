@@ -35,9 +35,8 @@ main{
     gap: 82px;
 }
 header.cabecalho{
-    width: 540px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 80px;
     margin-top: 15px;
 }
@@ -114,11 +113,13 @@ strong#destaque{
             align-items: center;
         }
         header.cabecalho{
-            width: 520px;
             margin-top: 6%;
         }
         div#apresentacao__conteudo{
             width: auto;
+        }
+        img#imageFelipe{
+            width: 70%;
         }
 
 }
@@ -145,4 +146,27 @@ strong#destaque{
             width: 30%;
         }
 
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+
+    main{
+        margin: 5% 5%;
+        gap:40px
+    }
+
+    div#apresentacao__conteudo{
+        width: 500px;
+    }
+    h1{
+        font-size: 2.0rem;
+        font-family:var(--fonte-primaria);
+    }
+    p{
+        font-size: 1.50rem;
+        font-family: var(--fonte-secundaria);
+    }
+    img#imageFelipe{
+        width: 40%;
+    }
 }
