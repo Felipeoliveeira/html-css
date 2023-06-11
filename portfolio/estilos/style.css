@@ -142,21 +142,27 @@ strong#destaque{
 }
 
 
-@media (min-width:768px) and (max-width:992px){
+@media (min-width:600px) and (max-width:768px){
 
         main{
+            flex-direction: column-reverse;
             margin: 5% 3%;
             gap:40px
         }
 
         div#apresentacao__conteudo{
-            width: 470px;
+            width: auto;
         }
-
+        div#buttom{
+            flex-direction: column;
+            align-items: center;
+        }
         img#imageFelipe{
-            width: 30%;
+            width: 65%;
         }
-
+        p.frase__rodape{
+            font-size: 1.50rem;
+        }
 }
 
 @media (min-width:992px) and (max-width:1200px) {
