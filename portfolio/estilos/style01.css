@@ -36,11 +36,11 @@ main{
     gap: 82px;
 }
 header.cabecalho{
-    width: 445px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 80px;
-    margin-top: 15px;
+    padding-top: 2%;
+    padding-left:5% ;
 }
 header.cabecalho > a{
     text-decoration: none;
@@ -52,7 +52,6 @@ header.cabecalho > a:hover{
 
 }
 div#apresentacao__conteudo{
-    width: 593px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -110,26 +109,89 @@ footer.rodape{
     justify-content: center;
     align-items: center;
     padding: 24px;
+    font-weight: bold;
 }
 strong#destaque{
     color:var(--cor-terciaria) ;
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 600px) {
+    header.cabecalho{
+        gap: 30px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
     main{
         flex-direction: column-reverse;
-    }
-    #buttom{
-        flex-direction: column;
-        align-items: center;
-    }
-    header.cabecalho{
-        width: 790px;
-        margin-top: 6%;
+        gap: 50px;
     }
     #apresentacao__conteudo{
         width: auto;
+    }
+    img#imageFelipe{
+        width: 85%;
+    }
+    h1{
+        font-size: 1.85rem;
+    }
+    p.frase__conteudo{
+        font-size: 1.50rem;
+    }
+    p.frase__rodape{
+        font-size: 1.12rem;
+    }
+
+}
+
+@media (min-width:601px) and (max-width:768px){
+
+    header.cabecalho{
+        justify-content: center;
+        gap: 80px;
+    }
+
+    main{
+        flex-direction: column-reverse;
+        margin: 5% 3%;
+        gap:50px
+    }
+
+    img#imageFelipe{
+        width: 55%;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    header.cabecalho{
+        padding-bottom: 50px;
+        justify-content: center;
+        gap: 120px;
+    }
+
+    main{
+        flex-direction: column-reverse;
+        gap:40px
+    }
+
+    img#imageFelipe{
+        width: 50%;
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px){
+
+    header.cabecalho{
+        justify-content: flex-start;
+        padding-left: 8%;
+        gap: 160px;
+    }
+    main{
+        margin: 5% 2%;
+        gap:40px
+    }
+
+    h1{
+        font-size: 2rem;
     }
 
 }
