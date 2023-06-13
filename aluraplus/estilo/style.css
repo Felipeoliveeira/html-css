@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --azul-terciario: #167BF7;
+    --cor-background: #000000;
+
+}
+body{
+    background-color: var(--cor-background);
+    color: var(--branco-principal);
+}
