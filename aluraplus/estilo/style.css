@@ -16,4 +16,35 @@
 body{
     background-color: var(--cor-background);
     color: var(--branco-principal);
+
+}
+
+section.principal{
+    height: 100vh;
+    background-image: url(../pictures/Background.png);
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao{
+    color: var(--branco-principal);
+    background-color: var(--azul-terciario);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-align: center;
+}
+.container__botao__dois{
+        color: var(--branco-principal);
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 1em;
+        display: block;
+
+        text-decoration: none;
+        border: 1px solid var(--cinza-secundario);
+        background-color: transparent;
+        text-align: center;
 }
