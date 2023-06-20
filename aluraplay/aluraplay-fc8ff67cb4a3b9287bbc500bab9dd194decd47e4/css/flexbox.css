@@ -41,6 +41,8 @@
 .menu__lista{
     display: flex;
     justify-content: space-between;
+    height: 100%;
+    align-items: center;
 }
 
 .menu__lista:nth-child(2),.menu__lista:nth-child(3),.menu__lista:nth-child(4){
@@ -48,7 +50,6 @@
 }
 
 .menu__itens{
-    align-self: center;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -61,5 +62,19 @@
     /* RODAPE */
     .rodape__container{
         justify-content: space-between;
+    }
+    /* MENU */
+    .menu__container{
+        position: fixed;
+        bottom: 0%;
+        width: 74px;
+        height: auto;
+        top: 80px;
+    }
+    .menu__lista{
+        flex-direction: column;
+        height: 0;
+        gap: 33px;
+
     }
 }
