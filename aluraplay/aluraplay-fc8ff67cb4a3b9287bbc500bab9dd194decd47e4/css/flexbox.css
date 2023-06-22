@@ -24,9 +24,9 @@
 .superior__secao__container{
     display: flex;
     align-items: center;
-    white-space: pre;
+    white-space: nowrap;
     gap: 15px;
-    overflow: auto;
+    overflow: scroll;
 }
 
 /* MENU*/
@@ -77,4 +77,13 @@
         gap: 33px;
 
     }
+}
+
+@media (min-width:1280px){
+
+    .menu__container{
+        width: 239px;
+    }
+
+
 }
