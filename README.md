@@ -12,6 +12,4 @@ Práticas realizadas junto à Alura,e autodidáticos.
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
 
-## Portfólios e outros projetos inciados para agregar na minha carreira que realiza o desenvolvimento desde às práticas mais básicas organizar conteúdo e .
-
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+## Portfólios e outros projetos inciados para agregar na carreira, desenvolvimento de layouts desde as práticas mais básicas como personalizar e criar layouts modernos.
