@@ -110,3 +110,13 @@
     gap: 10px;
     
 }
+
+/* SECAO__VAGAS */
+
+.secao__vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding-top: 10px;
+}
