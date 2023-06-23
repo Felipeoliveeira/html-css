@@ -5,8 +5,8 @@
     --cor-principal: #FFFFFF;
     --cor-secundaria: #8E2424;
     --cor-terciaria: #667085;
-    ;
-    --fonte-principal: ;
+    --cor-quarternaria: #000000;
+    --fonte-principal: 'Inter', sans-serif;
 }
 
 *{
@@ -35,7 +35,7 @@
 .menu{
     display: flex;
     gap: 32px;
-    padding-right: 130px;
+    padding-right: 190px;
 
 }
 .menu__itens{
@@ -80,4 +80,33 @@
     color: var(--cor-terciaria);
     text-align: center;
 
+}
+
+/* SECAO INFORMAÇÃO RESULTADOS */
+
+.secao__info__conteudo{
+    display: flex;
+    padding-left: 112px;
+    padding-right: 96px;
+    gap: 64px;
+    font-family: var(--fonte-principal);
+}
+.numero{
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    font-size: 60px;
+}
+.info{
+    color: var(--cor-quarternaria);
+    font-size: 18px;
+}
+.conteudo{
+    color: var(--cor-terciaria);
+    font-size: 16px;
+}
+.divisao__resultados{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 }
