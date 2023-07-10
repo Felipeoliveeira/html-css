@@ -1,10 +1,12 @@
 .secao-horizontal .cartao{
     display: grid;
-    grid-template-columns: auto 1fr auto ;
+    grid-template-columns: auto 1fr auto;
+    gap: 19px;
 }
 .secao-horizontal .cartao__imagem{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
+    grid-area: 1/1/4/2;
+}
+
+.secao-horizontal .cartao__botao{
+    grid-area: 1/3/4/4 ;
 }
