@@ -14,5 +14,5 @@ Práticas realizadas junto à Alura,e autodidáticos.
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+O projeto mostrado acima, é minha página web disponível para acessar livremente, foi desenvolvido inteiramente em html5 e css3 onde já possuo domínio.Sendo assim meus próximos objetivos estão no aprofundamento e aprendizado de FrameWorks e JavaScript.
 
