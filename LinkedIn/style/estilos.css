@@ -1,8 +1,17 @@
-@charset "UTF-8"
-
 :root{
-    --cor-primaria: #1B2226;
-    --cor-secundaria: #70B5F9;
-    
-
+    --cor-fundo: #1B2226;
+    --cor-link: #70B5F9;
+    --cor-letras-destaque: #FFFFFF;
+    --cor-letras-pequenas: rgba(255, 255, 255, 0.6);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.conteiner__cabecalho{
+    background-color: var(--cor-fundo);
+    height: 52px;
 }
