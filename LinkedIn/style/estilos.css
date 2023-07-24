@@ -3,6 +3,7 @@
     --cor-link: #70B5F9;
     --cor-letras-destaque: #FFFFFF;
     --cor-letras-pequenas: rgba(255, 255, 255, 0.6);
+    --cor-caixa: #38434F;
 }
 *{
     margin: 0;
@@ -13,5 +14,36 @@ body{
 }
 .conteiner__cabecalho{
     background-color: var(--cor-fundo);
-    height: 52px;
+    padding: 9px;
+    display: flex;
+    gap: 90px;
+    justify-content: space-around;
+}
+
+.conteiner__caixa{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.conteiner__logos{
+    list-style-type: none;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;}
+.logo{
+    text-decoration: none;
+    color: var(--cor-letras-destaque);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caixa__texto{
+    height: 34px;
+    width: 280px;
+    border: transparent;
+    border-radius: 4px;
+    color: var(--cor-letras-destaque);
+    background-color: var(--cor-caixa);
 }
