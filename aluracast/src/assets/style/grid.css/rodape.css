@@ -1,0 +1,4 @@
+.rodape{
+    display: grid;
+    grid-template-columns: auto 2fr auto 1.5fr auto auto auto 1.5fr auto 1.5fr 1fr ;
+}
