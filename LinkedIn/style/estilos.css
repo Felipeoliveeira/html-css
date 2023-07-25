@@ -5,16 +5,19 @@
     --cor-letras-pequenas: rgba(255, 255, 255, 0.6);
     --cor-caixa: #38434F;
 }
+
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: black;
 }
+
 .conteiner__cabecalho{
     background-color: var(--cor-fundo);
-    padding: 9px;
+
     display: flex;
     gap: 90px;
     justify-content: space-around;
@@ -25,20 +28,21 @@ body{
     align-items: center;
     gap: 8px;
 }
+
 .conteiner__logos{
-    list-style-type: none;
-    width: 400px;
+    color: var(--cor-letras-destaque);
+
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;}
+    align-items: flex-end;
+    gap: 8px;
+    text-align: center;
+}
+
 .logo{
     text-decoration: none;
     color: var(--cor-letras-destaque);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
+
 .caixa__texto{
     height: 34px;
     width: 280px;
