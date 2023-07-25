@@ -19,23 +19,40 @@ body{
     background-color: var(--cor-fundo);
 
     display: flex;
-    gap: 90px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .conteiner__caixa{
     display: flex;
     align-items: center;
     gap: 8px;
+    position: relative;
 }
 
+.logo__pesquisa{
+    position: absolute;
+    left: 50px;
+}
+
+.conteiner__pesquisa::placeholder{
+    position: absolute;
+    left: 41px;
+}
+.conteiner__pesquisa{
+    height: 34px;
+    width: 280px;
+    background-color: var(--cor-caixa);
+    border: transparent;
+    border-radius: 4px;
+    color: var(--cor-letras-destaque);
+}
 .conteiner__logos{
     color: var(--cor-letras-destaque);
-
-    display: flex;
-    align-items: flex-end;
-    gap: 8px;
     text-align: center;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .logo{
