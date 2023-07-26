@@ -6,6 +6,7 @@
     --cor-caixa: #38434F;
 }
 
+/*SECAO DADOS PERFIL*/
 .secao__perfil{
     background-color: var(--cor-caixa);
     width: 780px;
@@ -42,7 +43,6 @@
     position: absolute;
     top: 70px;
     left: 24px;
-
 }
 .name{
     font-size: 1.5rem;
@@ -81,15 +81,51 @@
 }
 
 .instituicoes{
+    position: relative;
+    top: 60px;
+    left: 180px;
     display: flex;
     flex-direction: column-reverse;
-    align-items: flex-end;
-    justify-content: center;
-    padding-right: 87px;
-    padding-top: 60px;
+    align-items: center;
 }
 
 .instituicoes__link{
     text-decoration: none;
     color: var(--cor-letras-destaque);
+}
+
+/*SECAO DESTAQUES*/
+
+.secao__destaques{
+    width: 780px;
+    background-color: var(--cor-caixa);
+}
+
+.titulo__destaques{
+    color: var(--cor-letras-destaque);
+    font-size: 1.25rem;
+}
+
+.conteiner__de__destaques{
+    display: flex;
+    flex-direction: row;
+}
+.caixas__destaques{
+    border: 1px solid var(--cor-letras-destaque);
+    line-height: 1.25rem;
+    
+}
+
+.titulo__publicacao{
+    color: var(--cor-letras-pequenas);
+    font-size: 0.75rem;
+}
+
+.legenda__publicacao{
+    font-size: 0.75rem;
+    color: var(--cor-letras-destaque);
+}
+.img__destaques{
+    width: 236px;
+    border: transparent;
 }
