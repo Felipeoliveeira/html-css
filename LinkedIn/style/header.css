@@ -13,16 +13,17 @@
 
 body{
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 .conteiner__cabecalho{
     background-color: var(--cor-fundo);
-
     display: flex;
     justify-content: space-evenly;
+
 }
 
-.conteiner__caixa{
+.conteiner__pesquisa{
     display: flex;
     align-items: center;
     gap: 8px;
@@ -34,11 +35,12 @@ body{
     left: 50px;
 }
 
-.conteiner__pesquisa::placeholder{
+.caixa__pesquisa::placeholder{
     position: absolute;
     left: 41px;
+    color: var(--cor-letras-destaque);
 }
-.conteiner__pesquisa{
+.caixa__pesquisa{
     height: 34px;
     width: 280px;
     background-color: var(--cor-caixa);
