@@ -158,6 +158,7 @@ padding-left: 97px;
     background-color: var(--cor-caixa);
     width: 780px;
     height: 371px;
+    border-radius: 8px;
 }
 
 .titulo__atividades{
@@ -170,33 +171,35 @@ padding-left: 97px;
     font-size: 0.875rem;
     text-decoration: none;
     color: var(--cor-link);
-    padding:10px 0px 0px 24px ;
+    padding:10px 0px 0px 24px;
 }
 
 .caixa__atividades{
-    font-size: 0,875rem;
+    color: var(--cor-letras-destaque);
     display: grid;
-    grid-area: 'registro' 'registro' 'registro'
-    'imagem' 'texto' 'texto'
-    'interacao' 'interacao' 'interacao';
+    grid-template-columns: auto 2fr 1fr;
+    grid-template-areas:"registro" "registro" "registro"
+    "imagem" "texto" "texto"
+    "interacao" "interacao" "interacao";
 }
 
-.registro__atividade{
-    font-size: 1,25rem;
-    grid-template-areas: registro;
+.registro_da_atividade{
+    font-size: 1.25rem;
+    grid-area: registro;
 }
 
 .imagem__atividades{
     width: 64px;
     height: 64px;
-    grid-template-areas: imagem;
+    grid-area: imagem;
 }
+
 .texto__atividades{
+    font-size: 0.875rem;
     grid-area: texto;
 }
 .interacao{
-    grid-template-areas: interacao;
-}
-#barra_de_comentario{
-    border-bottom: 1px solid var(--borda--caixas);
+    grid-area: interacao;
+    display: flex;
+    justify-content: space-between;
 }
