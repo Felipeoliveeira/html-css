@@ -55,11 +55,22 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+
 }
 
 .logo{
     text-decoration: none;
     color: var(--cor-letras-destaque);
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo > img {
+    margin: 0.3rem auto;
 }
 
 .caixa__texto{

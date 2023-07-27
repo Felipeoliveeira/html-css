@@ -4,6 +4,7 @@
     --cor-letras-destaque: #FFFFFF;
     --cor-letras-pequenas: rgba(255, 255, 255, 0.6);
     --cor-caixa: #38434F;
+    --borda--caixas: #FFFFFF99;
 }
 
 /*SECAO DADOS PERFIL*/
@@ -98,34 +99,104 @@
 
 .secao__destaques{
     width: 780px;
+
     background-color: var(--cor-caixa);
+    border-radius: 18px;
+    padding-bottom: 22px;
 }
 
 .titulo__destaques{
     color: var(--cor-letras-destaque);
     font-size: 1.25rem;
+    padding-left: 24px;
 }
 
 .conteiner__de__destaques{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+
 }
 .caixas__destaques{
-    border: 1px solid var(--cor-letras-destaque);
+    border: 1px solid var(--borda--caixas);
     line-height: 1.25rem;
-    
+    border-radius: 8px;
 }
 
 .titulo__publicacao{
     color: var(--cor-letras-pequenas);
     font-size: 0.75rem;
+    padding: 12px 0px 0px 14px;
 }
 
 .legenda__publicacao{
     font-size: 0.75rem;
     color: var(--cor-letras-destaque);
+    padding: 0px 0px 4px 14px;
 }
 .img__destaques{
     width: 236px;
     border: transparent;
+}
+
+.caixa__comentarios{
+    display: flex;
+    flex-direction: row;
+    line-height: 20px;
+    color: var(--cor-letras-pequenas);
+    font-size: 0.75rem;
+}
+
+.comentarios{
+padding-left: 97px;
+}
+
+/*SECAO ATIVIDADES*/
+
+.secao__atividades{
+    background-color: var(--cor-caixa);
+    width: 780px;
+    height: 371px;
+}
+
+.titulo__atividades{
+    color: var(--cor-letras-destaque);
+    font-size: 1.25rem;
+    padding: 10px 0px 0px 24px;
+}
+
+.subtitulo__atividades{
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: var(--cor-link);
+    padding:10px 0px 0px 24px ;
+}
+
+.caixa__atividades{
+    font-size: 0,875rem;
+    display: grid;
+    grid-area: 'registro' 'registro' 'registro'
+    'imagem' 'texto' 'texto'
+    'interacao' 'interacao' 'interacao';
+}
+
+.registro__atividade{
+    font-size: 1,25rem;
+    grid-template-areas: registro;
+}
+
+.imagem__atividades{
+    width: 64px;
+    height: 64px;
+    grid-template-areas: imagem;
+}
+.texto__atividades{
+    grid-area: texto;
+}
+.interacao{
+    grid-template-areas: interacao;
+}
+#barra_de_comentario{
+    border-bottom: 1px solid var(--borda--caixas);
 }
