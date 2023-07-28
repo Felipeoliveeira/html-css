@@ -137,7 +137,7 @@
 }
 .img__destaques{
     width: 236px;
-    border: transparent;
+
 }
 
 .caixa__comentarios{
@@ -176,30 +176,75 @@ padding-left: 97px;
 
 .caixa__atividades{
     color: var(--cor-letras-destaque);
-    display: grid;
-    grid-template-columns: auto 2fr 1fr;
-    grid-template-areas:"registro" "registro" "registro"
-    "imagem" "texto" "texto"
-    "interacao" "interacao" "interacao";
+    padding-left: 22px;
+    padding-right: 24px;
+    padding-top: 13px;
 }
 
 .registro_da_atividade{
-    font-size: 1.25rem;
-    grid-area: registro;
+    font-size: 0.875rem;
+    padding-bottom: 9px;
+    color: var(--cor-letras-pequenas);
 }
 
 .imagem__atividades{
-    width: 64px;
-    height: 64px;
-    grid-area: imagem;
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    float: left;
+    padding-right: 0.5rem;
 }
 
 .texto__atividades{
     font-size: 0.875rem;
-    grid-area: texto;
 }
 .interacao{
-    grid-area: interacao;
+    border-bottom: 1px solid var(--borda--caixas);
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 0.625rem;
+    padding-bottom: 0.5rem;
+    color: var(--cor-letras-pequenas);
+    font-size: 0.75rem;
+
+}
+.interacao2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.625rem;
+    color: var(--cor-letras-pequenas);
+    font-size: 0.75rem;
+}
+
+.exibir__atividades{
+    text-align: center;
+    color: var(--cor-letras-pequenas);
+    padding: 0rem 0.5rem;
+}
+
+/*SECAO SOBRE*/
+
+.section__sobre{
+    background-color: var(--cor-caixa);
+    width: 48.75rem;
+    border-radius: 16px;
+}
+
+.titulo__sobre{
+    color: var(--cor-letras-destaque);
+    font-size: 1.25rem;
+    padding-top: 16px;
+    padding-left: 24px;
+}
+
+.texto__sobre{
+    color: var(--cor-letras-destaque);
+    font-size: 0.875rem;
+    padding-top: 8px;
+    padding-left: 24px;
+    padding-bottom: 16px;
 }
