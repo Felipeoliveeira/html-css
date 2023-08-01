@@ -14,6 +14,7 @@
     height: 468px;
     border-radius: 16px;
     position: relative;
+    grid-area: 2/2/3/3;
 }
 
 .plano__de__fundo{
@@ -103,6 +104,7 @@
     background-color: var(--cor-caixa);
     border-radius: 18px;
     padding-bottom: 22px;
+    grid-area: 3/2/4/3;
 }
 
 .titulo__destaques{
@@ -159,6 +161,7 @@ padding-left: 97px;
     width: 780px;
     height: 371px;
     border-radius: 8px;
+    grid-area: 4/2/5/3;
 }
 
 .titulo__atividades{
@@ -176,9 +179,7 @@ padding-left: 97px;
 
 .caixa__atividades{
     color: var(--cor-letras-destaque);
-    padding-left: 22px;
-    padding-right: 24px;
-    padding-top: 13px;
+    padding: 13px 24px 0px 22px;
 }
 
 .registro_da_atividade{
@@ -190,7 +191,6 @@ padding-left: 97px;
 .imagem__atividades{
     width: 4rem;
     height: 4rem;
-    display: inline-block;
     float: left;
     padding-right: 0.5rem;
 }
@@ -204,8 +204,7 @@ padding-left: 97px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0.625rem;
-    padding-bottom: 0.5rem;
+    padding: 0.625rem 0rem 0.5rem 0rem;
     color: var(--cor-letras-pequenas);
     font-size: 0.75rem;
 
@@ -232,19 +231,207 @@ padding-left: 97px;
     background-color: var(--cor-caixa);
     width: 48.75rem;
     border-radius: 16px;
+    grid-area: 5/2/6/3;
 }
 
 .titulo__sobre{
     color: var(--cor-letras-destaque);
     font-size: 1.25rem;
-    padding-top: 16px;
-    padding-left: 24px;
+    padding: 16px 0px 0px 24px;
 }
 
 .texto__sobre{
     color: var(--cor-letras-destaque);
     font-size: 0.875rem;
-     padding-top: 8px;
-    padding-left: 24px;
-    padding-bottom: 16px;
+    padding: 8px 0px 16px 24px;
+}
+
+/*SECAO EXPERIENCIAS*/
+
+.secao__experiencia{
+    background-color: var(--cor-caixa);
+    width: 780px;
+    border-radius: 8px;
+    padding-bottom: 24px;
+    grid-area: 6/2/7/3;
+}
+
+.titulo_experiencia{
+    color: var(--cor-letras-destaque);
+    font-size: 1.25rem;
+    padding: 16px 0px 8px 24px;
+}
+
+.logo__empresa{
+    width: 48px;
+    float: left;
+    padding: 0px 8px 8px 24px;
+}
+
+.nome__empresa{
+    color: var(--cor-letras-destaque);
+    font-size: 1rem;
+}
+
+.tempo_de_empresa{
+    color: var(--cor-letras-pequenas);
+    font-size: 0.875rem;
+}
+
+.caixa_time_line{
+    line-height: 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 28px;
+    width: 100%;
+    padding: 0px 0px 0px 44px;
+}
+
+.img_time_line{
+    height: 71px;
+    grid-area: 1/1/6/2;
+}
+
+.nome_cargo{
+    color: var(--cor-letras-destaque);
+    font-size: 1rem;
+}
+
+.jornada_de_trabalho{
+    color: var(--cor-letras-destaque);
+    font-size:0.875rem;
+    font-weight: 400;
+}
+
+.tempo_de_experiencia{
+    color: var(--cor-letras-pequenas);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.lugar_de_experiencia{
+    color: var(--cor-letras-pequenas);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+/*SECAO FORMACAO*/
+
+.secao__formacao{
+    background-color: var(--cor-caixa);
+    width: 48.75rem;
+    border-radius: 8px;
+    padding-bottom: 32px;
+    grid-area: 7/2/8/3;
+}
+
+.titulo__formacao{
+    color: var(--cor-letras-destaque);
+    font-size: 1.25rem;
+    padding: 9px 0px 8px 24px;
+}
+
+.imagem__formacao{
+    float: left;
+    width: 48px;
+    padding: 0px 8px 0px 24px;
+}
+
+.instituicao__nome{
+    color: var(--cor-letras-destaque);
+    font-size: 1rem;
+}
+
+.curso__nome{
+    color: var(--cor-letras-destaque);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.tempo_de_formacao{
+    color: var(--cor-letras-pequenas);
+    font-size: 0.875rem;
+}
+
+/*SECAO IDIOMAS*/
+
+.secao__idioma{
+    background-color: var(--cor-caixa);
+    width: 780px;
+    border-radius: 8px;
+    color: var(--cor-letras-destaque);
+    grid-area: 8/2/9/3;
+}
+
+.titulo__idioma{
+    font-size: 1.25rem;
+    padding: 16px 0px 8px 24px;
+}
+
+.idioma__falado{
+    font-size: 0.875rem;
+    padding: 0px 0px 0px 24px;
+}
+
+.nivel__idioma{
+    font-size: 0.875rem;
+    color: var(--cor-letras-pequenas);
+    padding: 0px 0px 0px 24px;
+    font-weight: 400;
+}
+.line{
+    width: 80%;
+    padding-left: 23px;
+}
+
+/*SECAO CONEXOES*/
+
+.secao__conexoes{
+    width: 320px;
+    background-color: var(--cor-caixa);
+    color: var(--cor-letras-destaque);
+    border-radius: 16px;
+    grid-area: 2/3/2/3;
+}
+
+#grid-conexoes{
+     grid-area: 3/3/4/4;
+}
+
+.titulo__conexoes{
+    font-size: 1rem;
+    padding: 16px 0px 16px 16px;
+}
+
+.perfil__conexoes{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 6px;
+    padding: 0px 16px 16px 16px;
+}
+
+.img_de_perfil_conexoes{
+    grid-area: 1/1/4/1;
+}
+
+.nome_de_perfil{
+    font-size: 0.875rem;
+    grid-area: 1/2/1/2;
+}
+
+.titulo_de_perfil{
+    font-size: 0.75rem;
+    color: var(--cor-letras-pequenas);
+}
+
+.botao_de_mensagem{
+    width: 154px;
+    text-decoration: none;
+    text-align: center;
+    color: var(--cor-letras-destaque);
+    border: 1px solid var(--cor-letras-destaque);
+    border-radius: 16px;
+    margin-top: 6px;
+    padding: 4px;
+    grid: 2/2/3/2;
 }

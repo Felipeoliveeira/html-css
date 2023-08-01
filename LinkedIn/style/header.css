@@ -12,15 +12,19 @@
 }
 
 body{
+
     background-color: black;
     font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 0.5fr auto auto 0.5fr;
+    
 }
 
 .conteiner__cabecalho{
     background-color: var(--cor-fundo);
     display: flex;
     justify-content: space-evenly;
-
+    grid-area: 1/1/1/6;
 }
 
 .conteiner__pesquisa{
