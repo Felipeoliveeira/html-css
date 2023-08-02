@@ -100,11 +100,13 @@
 
 .secao__destaques{
     width: 780px;
-
+    height: 312px;
     background-color: var(--cor-caixa);
     border-radius: 18px;
     padding-bottom: 22px;
-    grid-area: 3/2/4/3;
+    grid-area: 3/2/3/3;
+    align-self: start;
+
 }
 
 .titulo__destaques{
@@ -391,11 +393,11 @@ padding-left: 97px;
     background-color: var(--cor-caixa);
     color: var(--cor-letras-destaque);
     border-radius: 16px;
-    grid-area: 2/3/2/3;
+    grid-area: 2/3/3/4;
 }
 
 #grid-conexoes{
-     grid-area: 3/3/4/4;
+    grid-area: 3/3/4/4;
 }
 
 .titulo__conexoes{
