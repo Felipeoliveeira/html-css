@@ -14,7 +14,13 @@
     height: 468px;
     border-radius: 16px;
     position: relative;
+
+}
+
+.conteiner__principal{
     grid-area: 2/2/3/3;
+    display: grid;
+    gap: 8px;
 }
 
 .plano__de__fundo{
@@ -100,19 +106,16 @@
 
 .secao__destaques{
     width: 780px;
-    height: 312px;
     background-color: var(--cor-caixa);
     border-radius: 18px;
-    padding-bottom: 22px;
-    grid-area: 3/2/3/3;
-    align-self: start;
-
+    padding: 22px 0px 22px 0px;
 }
 
 .titulo__destaques{
     color: var(--cor-letras-destaque);
     font-size: 1.25rem;
     padding-left: 24px;
+    padding-bottom: 22px;
 }
 
 .conteiner__de__destaques{
@@ -163,7 +166,7 @@ padding-left: 97px;
     width: 780px;
     height: 371px;
     border-radius: 8px;
-    grid-area: 4/2/5/3;
+
 }
 
 .titulo__atividades{
@@ -222,18 +225,23 @@ padding-left: 97px;
 }
 
 .exibir__atividades{
+    width: 98%;
     text-align: center;
     color: var(--cor-letras-pequenas);
     padding: 0rem 0.5rem;
 }
 
+.exibir__atividades:hover{
+    background-color: var(--cor-letras-pequenas);
+    color: var(--cor-letras-destaque);
+    border-radius: 8px;
+}
 /*SECAO SOBRE*/
 
 .section__sobre{
     background-color: var(--cor-caixa);
     width: 48.75rem;
     border-radius: 16px;
-    grid-area: 5/2/6/3;
 }
 
 .titulo__sobre{
@@ -255,7 +263,6 @@ padding-left: 97px;
     width: 780px;
     border-radius: 8px;
     padding-bottom: 24px;
-    grid-area: 6/2/7/3;
 }
 
 .titulo_experiencia{
@@ -291,7 +298,6 @@ padding-left: 97px;
 
 .img_time_line{
     height: 71px;
-    grid-area: 1/1/6/2;
 }
 
 .nome_cargo{
@@ -324,7 +330,6 @@ padding-left: 97px;
     width: 48.75rem;
     border-radius: 8px;
     padding-bottom: 32px;
-    grid-area: 7/2/8/3;
 }
 
 .titulo__formacao{
@@ -362,7 +367,6 @@ padding-left: 97px;
     width: 780px;
     border-radius: 8px;
     color: var(--cor-letras-destaque);
-    grid-area: 8/2/9/3;
 }
 
 .titulo__idioma{
@@ -378,7 +382,7 @@ padding-left: 97px;
 .nivel__idioma{
     font-size: 0.875rem;
     color: var(--cor-letras-pequenas);
-    padding: 0px 0px 0px 24px;
+    padding: 0px 0px 16px 24px;
     font-weight: 400;
 }
 .line{
@@ -393,11 +397,12 @@ padding-left: 97px;
     background-color: var(--cor-caixa);
     color: var(--cor-letras-destaque);
     border-radius: 16px;
-    grid-area: 2/3/3/4;
+    grid-area: 2/3/2/4;
 }
 
 #grid-conexoes{
     grid-area: 3/3/4/4;
+
 }
 
 .titulo__conexoes{
