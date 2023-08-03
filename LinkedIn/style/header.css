@@ -16,7 +16,7 @@ body{
     font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: 0.5fr auto auto 0.5fr;
-    grid-template-rows: auto 600px;
+    grid-template-rows: 2.3% 21% 21%;
     gap: 8px;
 }
 

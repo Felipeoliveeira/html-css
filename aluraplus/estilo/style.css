@@ -24,7 +24,7 @@ section.principal{
     background-image: url(../pictures/Background.png);
     background-size: contain;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
 }
 
 .container__botao{
@@ -37,14 +37,14 @@ section.principal{
     text-align: center;
 }
 .container__botao__dois{
-        color: var(--branco-principal);
-        text-decoration: none;
-        border-radius: 5px;
-        padding: 1em;
-        display: block;
+    color: var(--branco-principal);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
 
-        text-decoration: none;
-        border: 1px solid var(--cinza-secundario);
-        background-color: transparent;
-        text-align: center;
+    text-decoration: none;
+    border: 1px solid var(--cinza-secundario);
+    background-color: transparent;
+    text-align: center;
 }
