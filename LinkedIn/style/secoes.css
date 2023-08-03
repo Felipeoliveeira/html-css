@@ -289,38 +289,43 @@ padding-left: 97px;
 
 .caixa_time_line{
     line-height: 1rem;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    column-gap: 28px;
     width: 100%;
-    padding: 0px 0px 0px 44px;
+    padding: 0px 0px 4px 44px;
+    float: left;
 }
 
-.img_time_line{
-    height: 71px;
+.imagem_timeline{
+    float: left;
+    padding-right: 33px;
 }
 
 .nome_cargo{
     color: var(--cor-letras-destaque);
     font-size: 1rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .jornada_de_trabalho{
     color: var(--cor-letras-destaque);
     font-size:0.875rem;
     font-weight: 400;
+    grid-column: 2/3;
 }
 
 .tempo_de_experiencia{
     color: var(--cor-letras-pequenas);
     font-size: 0.875rem;
     font-weight: 400;
+    grid-column: 2/3;
+    
 }
 
 .lugar_de_experiencia{
     color: var(--cor-letras-pequenas);
     font-size: 0.875rem;
     font-weight: 400;
+    grid-column: 2/3;
 }
 
 /*SECAO FORMACAO*/
