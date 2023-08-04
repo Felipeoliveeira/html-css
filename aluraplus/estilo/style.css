@@ -16,15 +16,31 @@
 body{
     background-color: var(--cor-background);
     color: var(--branco-principal);
-
+    font-family: 'Inter', sans-serif;
 }
 
-section.principal{
+.principal{
     height: 100vh;
-    background-image: url(../pictures/Background.png);
+    background-image: url(../pictures/sctionOne/Background.png);
     background-size: contain;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.conteiner__combo{
+    margin: 0em 6em;
+    display: grid;
+}
+
+.titulo__principal{
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.imagem__combomais{
+    margin: 1.37rem 0rem 3.375rem 7rem;
 }
 
 .container__botao{
@@ -47,4 +63,54 @@ section.principal{
     border: 1px solid var(--cinza-secundario);
     background-color: transparent;
     text-align: center;
+    margin: 1rem 0rem 0.625rem 0rem;
+}
+
+/*Section secundária*/
+
+.secundario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.titulo__plataformas{
+    font-size: 3em;
+}
+
+.descricao__plataformas{
+    font-size: 1em;
+    color: var(--cinza-secundario);
+    font-weight: 400;
+    opacity: 80%;
+}
+
+/*Section terciária*/
+
+.terceira{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+
+.descricao_terceira_sessao{
+    font-size: 1em;
+    color: var(--cinza-secundario);
+    font-weight: 400;
+    margin-bottom: 2em;
+    opacity: 80%;
+}
+
+.link__assinante{
+    padding: 1em;
+    background-color: var(--azul-terciario);
+    text-decoration: none;
+    border-radius: 8px;
+    color: var(--branco-principal);
+}
+
+.container__terceira{
+    margin: 0em 4.5em;
 }
