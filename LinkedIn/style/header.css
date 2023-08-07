@@ -21,7 +21,7 @@ body{
 }
 
 .conteiner__cabecalho{
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-caixa);
     display: flex;
     justify-content: space-evenly;
     grid-area: 1/1/2/5;
@@ -47,7 +47,7 @@ body{
 .caixa__pesquisa{
     height: 34px;
     width: 280px;
-    background-color: var(--cor-caixa);
+    background-color: #38434F;
     border: transparent;
     border-radius: 4px;
     color: var(--cor-letras-destaque);
