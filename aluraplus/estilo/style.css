@@ -20,26 +20,21 @@ body{
 }
 
 .principal{
-    height: 100vh;
     background-image: url(../pictures/sctionOne/Background.png);
     background-size: contain;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
 }
 
 .container__combo{
     margin: 0em 6em;
+    text-align: center;
 }
 
 .titulo__principal{
-    text-align: center;
     font-size: 1.75rem;
 }
 
 .imagem__combomais{
-    margin: 1.37rem 0rem 3.375rem 7rem;
+    margin: 1.37em 0px 3.37em 0px;
 }
 
 .container__botao{
@@ -49,7 +44,6 @@ body{
     border-radius: 5px;
     padding: 1em;
     display: block;
-    text-align: center;
 }
 
 .container__botao:hover{
@@ -151,4 +145,33 @@ body{
 
 .segunda__descricao{
     margin: 3em 5em;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        display: block;
+        background-image: none;
+        text-align: center;
+    }
+    .container__combo{
+        margin-top: 5em;
+    }
+    .titulo__principal{
+        font-size: 1.25rem;
+    }
+    .imagem__combomais{
+        width: 50vw;
+    }
+
+    .botao__terceiro{
+        margin-bottom: 1.75em;
+    }
+
+    .container__lista{
+        display: block;
+    }
+
+    .container__lista__links{
+        display: block;
+    }
 }
