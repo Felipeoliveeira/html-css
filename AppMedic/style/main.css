@@ -12,23 +12,13 @@
 body{
     background-color: var(--branco-acizentado);
 }
-.container_perfil{
-    
-}
-.cabecalho_telefone{
-    padding: 0rem 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.configuracao_telefone{
-    display: flex;
-    gap: 1rem;
-}
 .perfil{
     height: 7rem;
     display: flex;
     align-items: flex-end;
+    background-color: var(--branco-acizentado);
+    position: fixed;
+    width: 100%;
 }
 .perfil_sonia{
     display: grid;
@@ -58,5 +48,6 @@ body{
 .dia_atual{
     color: var(--preto-principal);
     font-weight: 700;
-    padding: 0.5rem 1rem;
+    padding: 6.813rem 0rem 0.5rem 1rem;
+    
 }
