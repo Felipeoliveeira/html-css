@@ -12,6 +12,9 @@
 body{
     background-color: var(--branco-acizentado);
 }
+.container_perfil{
+    
+}
 .cabecalho_telefone{
     padding: 0rem 1rem;
     display: flex;

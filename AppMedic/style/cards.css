@@ -3,14 +3,21 @@
     --preto-principal: #464646;
     --preto-claro: #A3A3A3;
     --branco-acizentado: #e5e3eb;
+    --button-color: #FFB050;
+    --button-azul-cor: #4894FF;
 }
 li{
     list-style: none;
 }
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 .card1{
     background-color:var(--branco-principal);
     margin: 0rem 1rem;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 .head_card{
     display: grid;
@@ -46,5 +53,29 @@ li{
     padding: 0.438rem;
     border-radius: 50%;
     text-align: center;
+}
+.hora_consulta{
+    font-size: 0.75rem;
+    margin-top: 0.563rem;
+    margin-left: 1rem;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+.button{
+    padding: 0.813rem;
+    border: none;
+    background-color: var(--button-color);
+    border-radius: 0.5rem;
 
+}
+.button_audio{
+    background-color: var(--branco-principal);
+}
+.button_endereco{
+    width: 95.5%;
+    background-color: var(--button-azul-cor);
+    color: var(--branco-principal);
 }
