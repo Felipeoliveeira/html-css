@@ -45,9 +45,11 @@ body{
     font-size: 0.875rem;
     color: var(--preto-claro);
 }
-.dia_atual{
+.dia{
     color: var(--preto-principal);
     font-weight: 700;
-    padding: 6.813rem 0rem 0.5rem 1rem;
-    
+    padding: 6.813rem 0rem 0.5rem 1rem; 
+}
+.outro_dia{
+    padding: 1rem 1rem;
 }
