@@ -58,7 +58,7 @@ ul{
 .hora_consulta{
     font-size: 0.75rem;
     margin-top: 0.563rem;
-    margin-left: 1rem;
+    margin-left: 1.85rem;
 }
 .buttons{
     display: flex;
@@ -67,7 +67,7 @@ ul{
 }
 .button{
     padding: 0.813rem;
-    border: none;
+    border: 1px solid var(--branco-acizentado);
     background-color: var(--button-color);
     border-radius: 0.5rem;
 

@@ -20,6 +20,7 @@
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 0rem;
+    color: var(--preto-principal);
 }
 .link_imagem{
     height: 1.25rem;

@@ -1,0 +1,18 @@
+
+:root{
+    --button-azul-cor: #4894FF;
+}
+.container_lateral{
+    position: fixed;
+    right: 17px;
+    bottom: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button_lateral{
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: var(--button-azul-cor);
+}
