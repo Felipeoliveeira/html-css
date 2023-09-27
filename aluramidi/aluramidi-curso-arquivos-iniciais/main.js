@@ -5,6 +5,7 @@ function tocaSom(idElementoAudio){
 const listaDeTeclas = document.querySelectorAll('.tecla')
 
 for (contador = 0; contador < listaDeTeclas.length; contador ++) {
+
    const tecla = listaDeTeclas[contador];
    const instrumento = tecla.classList[1];
    const idAudio = `#som_${instrumento}`;
@@ -12,4 +13,9 @@ for (contador = 0; contador < listaDeTeclas.length; contador ++) {
    tecla.onclick = function(){
        tocaSom(idAudio);
    }
+
+   tecla.onkeydown = function () {
+      tecla.classList.add('ativa');
+   }
+
 }
